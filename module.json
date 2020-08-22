@@ -3,8 +3,9 @@
   "title": "Thathalas Alcohol Tracker - Is your Party already Drunk?",
   "description": "A simple plugin for tracking about the alcohol level.",
   "author": "Thathalas",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "minimumCoreVersion": "0.6.5",
+  "compatibleCoreVersion": "0.6.5",
   "languages": [
     {
       "lang": "en",
