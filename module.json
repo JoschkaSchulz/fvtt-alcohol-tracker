@@ -3,7 +3,7 @@
   "title": "Thathalas Alcohol Tracker - Is your Party already Drunk?",
   "description": "A simple plugin for tracking about the alcohol level.",
   "author": "Thathalas",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "minimumCoreVersion": "0.6.5",
   "compatibleCoreVersion": "0.6.5",
   "languages": [
@@ -13,6 +13,14 @@
       "path": "lang/en.json"
     }
   ],
+  "packs": [{
+    "name": "thathalasalcoholtracker-macros",
+    "label": "Thathalas Alcohol Tracker",
+    "path": "packs/thathalasalcoholtracker-macros.db",
+    "entity": "Macro",
+    "module": "thathalas-alcohol-tracker"
+  }],
+  "esmodules": ["./scripts/main.js"],
   "url": "https://github.com/JoschkaSchulz/fvtt-alcohol-tracker",
   "manifest": "https://raw.githubusercontent.com/JoschkaSchulz/fvtt-alcohol-tracker/master/module.json",
   "download": "https://github.com/JoschkaSchulz/fvtt-alcohol-tracker/archive/master.zip"
